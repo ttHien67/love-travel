@@ -462,7 +462,7 @@ html {
     box-sizing: border-box;
     margin-top: 65px;
     width: 100%;
-    background-image: url('/assets/img/parallax-search-2.jpg');
+    background-image: url('./img/parallax-search-2.jpg');
     height: 235px;
     background-repeat: no-repeat;
     background-position: center;
@@ -706,10 +706,10 @@ html {
     justify-content: center;
 }
 .img-cities {
-    background-image: url("/assets/img/discover/city.jpg");
+    background-image: url("./img/discover/city.jpg");
 }
 .img-nature {
-    background-image: url("/assets/img/discover/nature.jpg");
+    background-image: url("./img/discover/nature.jpg");
 }
 
 .discover__places-sub-title {
