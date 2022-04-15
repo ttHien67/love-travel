@@ -382,13 +382,13 @@ body {
 }
 
 .des__item-img {
-    width: 370px;
+    width: 100%;
     padding: 15px;
 }
 .des__item-content {
     text-align: left;
-    height: 310px;
-    width: 310px;
+    height: 370px;
+    width: 370px;
     position: absolute;
     padding: 30px;
     top: 15px;
