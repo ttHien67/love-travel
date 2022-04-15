@@ -3,7 +3,7 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
 html {
@@ -784,6 +784,7 @@ body {
 
 .packages__list {
     display: flex;
+    flex-wrap: wrap;
 }
 .packages__item {
     padding: 15px;
