@@ -118,6 +118,7 @@
 
 .packages__list {
     flex-wrap: wrap;
+
 }
 
 
@@ -322,12 +323,14 @@
 }
 .slider__option-icon {
     margin-top: 7px;
+    cursor: pointer;
 }
 .slider__option-icon i {
     font-size: 25px;
     color: #9a9a9a;
     padding: 0 10px;
 }
+
 
 
 

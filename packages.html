@@ -4,10 +4,15 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="./assets/style.css">
         <link rel="stylesheet" href="./assets/packages.css">
         <link rel="stylesheet" href="./assets/base.css">
         <link rel="stylesheet" href="./assets/icon/themify-icons/themify-icons.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <title>Packages</title>
     </head>
     <body>
@@ -30,9 +35,9 @@
                     </div>
                     <div class="nav__option">
                         <ul class="nav__list">
-                            <li class="nav__item">Home</li>
+                            <li class="nav__item"><a href="./index.html">Home</a></li>
                             <li class="nav__item hover-package">
-                                Packets
+                                <a href="./packages.html">Packets</a>
                                 <div class="subnav">
                                     <ul class="subnav__list">
                                         <li class="subnav__item">
@@ -57,7 +62,7 @@
                                 </div>
                             </li>
                             <li class="nav__item nav__item-shop ">
-                                Shop
+                                <a href="">Shop</a>
                                 <div class="subnav__item-child-shop">
                                     <ul class="subnav__list-of-shop">
                                         <li class="subnav__item">Archive</li>
@@ -68,7 +73,7 @@
                                 </div>
                             </li>
                             <li class="nav__item nav__item-shop">
-                                About Us
+                                <a href="">About Us</a>
                                 <div class="subnav__item-child-about-us">
                                     <ul class="subnav__list-of-about-us">
                                         <li class="subnav__item">
@@ -81,8 +86,8 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li class="nav__item nav__item-pages">
-                                Pages
+                            <li class="nav__item nav__item-pages">     
+                                <a href="">Pages</a>
                                 <div class="subnav__item-child-pages">
                                     <ul class="subnav__list-of-pages">
                                         <li class="subnav__item">Services</li>
@@ -118,7 +123,7 @@
     
                             </li>
                             <li class="nav__item nav__item-news">
-                                News
+                                <a href="">News</a>
                                 <div class="subnav__item-child-news">
                                     <ul class="subnav__list-of-news">
                                         <li class="subnav__item">Archive</li>
@@ -137,7 +142,7 @@
                                 </div>
                             </li>
                             <li class="nav__item nav__item-contact">
-                                Contact
+                                <a href="">Contact</a>
                                 <div class="subnav__item-child-contact">
                                     <ul class="subnav__list-of-contact">
                                         <li class="subnav__item">Contact 1</li>
@@ -146,7 +151,7 @@
                                 </div>
                             </li>
                             <li class="nav__item nav__item--active">
-                               <span class="nav__item--btn">Book now</span>
+                               <span class="nav__item--btn"><a href="./packages.html">Book now</a></span>
                             </li>
                         </ul>
                     </div>
@@ -166,7 +171,7 @@
     
                 <div class="slider__selection">
                     <div class="slider__selection-content">
-                        <div class="selctor-destination col-3">
+                        <div class="selctor-destination col-lg-4 col-sm-12">
                             <h5 class="selctor-destination__title">Select Your Destination: </h5>
                             <div class="selection-option">
                                 <select name="" id="" class="selctor-destination__input">
@@ -183,15 +188,14 @@
                             </div>    
                         </div>
 
-                        <div class="selctor-destination col-3">
+                        <div class="selctor-destination col-lg-4 col-sm-12">
                             <h5 class="selctor-destination__title">Select Your Date: </h5>
                             <div class="selection-option">
                                 <input type="date" placeholder="mm-dd-yy" class="selection-option__input">
-                                <!-- <img src="./assets/img/packages-page/calendar-icon.png" alt="" class="selection-option__img"> -->
                             </div>    
                         </div>
 
-                        <div class="selctor-destination col-3">
+                        <div class="selctor-destination col-lg-4 col-sm-12">
                             <h5 class="selctor-destination__title">Max Price: <span class="selctor-destination__price">5000</span> $</h5>
                             <div class="selection-option">
                                 <input type="range" class="selection-option__progress" max="10000" min="0" step="1" value="5000">
@@ -208,7 +212,7 @@
 
                         <div class="filter__selection">
                             <div class="filter__content">
-                                <div class="filter__content-list col-4">
+                                <div class="filter__content-list col-lg-3 col-sm-6">
                                     <h2 class="filter__content-title">Typologies: </h2>
                                     <ul class="">
                                         <li class="filter__content-item">
@@ -230,7 +234,7 @@
                                     </ul>
                                 </div>
 
-                                <div class="filter__content-list col-4">
+                                <div class="filter__content-list col-lg-3 col-sm-6">
                                     <h2 class="filter__content-title">Durations: </h2>
                                     <ul class="">
                                         <li class="filter__content-item">
@@ -252,7 +256,7 @@
                                     </ul>
                                 </div>
 
-                                <div class="filter__content-list col-4">
+                                <div class="filter__content-list col-lg-3 col-sm-6">
                                     <h2 class="filter__content-title">Difficulty: </h2>
                                     <ul class="">
                                         <li class="filter__content-item">
@@ -270,7 +274,7 @@
                                     </ul>
                                 </div>
 
-                                <div class="filter__content-list col-4">
+                                <div class="filter__content-list col-lg-3 col-sm-6">
                                     <h2 class="filter__content-title">Min Age: </h2>
                                     <ul class="">
                                         <li class="filter__content-item">
@@ -317,8 +321,8 @@
                         </div>
 
                         <div class="slider__option-icon">
-                            <i class="ti-menu-alt"></i>
-                            <i class="ti-align-justify"></i>
+                            <i class="ti-menu-alt" id="change-to-list-2"></i>
+                            <i class="ti-align-justify" id="change-to-list-1"></i>
                         </div>
                     </div>
                 </div>
@@ -328,191 +332,14 @@
         <div class="content">
             <div class="content-section">
 
-                <div class="packages__list">
-                    <div class="col-3 packages__item">
-                        <div class="packages__item-img">
-                            <img src="./assets/img/packages/berlin.jpg" alt="" class="packages__item-img-pic">
-                            <a href="" class="packages__item-img-icon berlin-icon-color">
-                                <img src="./assets/img/packages/berlin.png" alt="">
-                            </a>
-                        </div>
-                        <div class="packages__item-content">
-                            <div class="packages__item-destination">
-                                <h1 class="packages__item-destination-name">Berlin</h1>
-                                <p class="packages__item-destination-place">
-                                    <i class="ti-location-pin"></i>
-                                    Europe
-                                </p>
-                            </div>
-                            <div class="packages__item-price">
-                                <p class="packages__item-price-name">CULTURAL <br>
-                                    <span>RELAX</span>
-                                    <button class="packages__item-price-btn berlin-btn-color">+ 1</button>
-                                </p>
-                                <span class="packages__item-price-money">700 $</span>
-                            </div>
-                            <div class="packages__item-description">
-                                <p class="packages__item-description-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
-                                <a href="" class="packages__item-description-btn berlin-btn-color">DETAILS</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-3 packages__item">
-                        <div class="packages__item-img">
-                            <img src="./assets/img/packages/hong-kong.jpg" alt="" class="packages__item-img-pic">
-                            <a href="" class="packages__item-img-icon hongkong-icon-color">
-                                <img src="./assets/img/packages/hong-kong.png" alt="">
-                            </a>
-                            <a href="" class="packages__item-img-sale">SALE</a>
-    
-                        </div>
-                        <div class="packages__item-content">
-                            <div class="packages__item-destination">
-                                <h1 class="packages__item-destination-name">Hong Kong</h1>
-                                <p class="packages__item-destination-place">
-                                    <i class="ti-location-pin"></i>
-                                    Asia
-                                </p>
-                            </div>
-                            <div class="packages__item-price">
-                                <p class="packages__item-price-name">HISTORY <br>
-                                    <span>CULTURAL</span>
-                                    <button class="packages__item-price-btn hongkong-btn-color">+ 1</button>
-                                </p>
-                                <span class="packages__item-price-money">
-                                    <span class="packages__item-price-old">1000</span>
-                                    500 $
-                                </span>
-                            </div>
-                            <div class="packages__item-description">
-                                <p class="packages__item-description-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
-                                <a href="" class="packages__item-description-btn hongkong-btn-color">DETAILS</a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="packages__list list-1">
 
-                    <div class="col-3 packages__item">
-                        <div class="packages__item-img">
-                            <img src="./assets/img/packages/san-francisco.jpg" alt="" class="packages__item-img-pic">
-                            <a href="" class="packages__item-img-icon sanFrancisco-icon-color">
-                                <img src="./assets/img/packages/san-francisco.png" alt="">
-                            </a>
-                        </div>
-                        <div class="packages__item-content">
-                            <div class="packages__item-destination">
-                                <h1 class="packages__item-destination-name">San Francisco</h1>
-                                <p class="packages__item-destination-place">
-                                    <i class="ti-location-pin"></i>
-                                    United States
-                                </p>
-                            </div>
-                            <div class="packages__item-price">
-                                <p class="packages__item-price-name">SPORT <br>
-                                    <span>RELAX</span>
-                                    <button class="packages__item-price-btn sanFrancisco-btn-color">+ 1</button>
-                                </p>
-                                <span class="packages__item-price-money">400 $</span>
-                            </div>
-                            <div class="packages__item-description">
-                                <p class="packages__item-description-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
-                                <a href="" class="packages__item-description-btn sanFrancisco-btn-color">DETAILS</a>
-                            </div>
-                        </div>
-                    </div>
+                </div>
 
-                    <div class="col-3 packages__item">
-                        <div class="packages__item-img">
-                            <img src="./assets/img/packages-page/phuket-img.jpg" alt="" class="packages__item-img-pic">
-                            <a href="" class="packages__item-img-icon thailandia-icon-color">
-                                <img src="./assets/img/packages-page/with-Thailandia.png" alt="">
-                            </a>
-                        </div>
-                        <div class="packages__item-content">
-                            <div class="packages__item-destination">
-                                <h1 class="packages__item-destination-name">PhuKet</h1>
-                                <p class="packages__item-destination-place">
-                                    <i class="ti-location-pin"></i>
-                                    Thailandia
-                                </p>
-                            </div>
-                            <div class="packages__item-price">
-                                <p class="packages__item-price-name">RELAX<br>
-                                    <span>CULTURAL</span>
-                                    <button class="packages__item-price-btn thailandia-btn-color">+ 1</button>
-                                </p>
-                                <span class="packages__item-price-money">1200 $</span>
-                            </div>
-                            <div class="packages__item-description">
-                                <p class="packages__item-description-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
-                                <a href="" class="packages__item-description-btn thailandia-btn-color">DETAILS</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-3 packages__item">
-                        <div class="packages__item-img">
-                            <img src="./assets/img/packages-page/amsterdam-img.jpg" alt="" class="packages__item-img-pic">
-                            <a href="" class="packages__item-img-icon amsterdam-icon-color">
-                                <img src="./assets/img/packages-page/with-Netherlands.png" alt="">
-                            </a>
-                        </div>
-                        <div class="packages__item-content">
-                            <div class="packages__item-destination">
-                                <h1 class="packages__item-destination-name">Amsterdam</h1>
-                                <p class="packages__item-destination-place">
-                                    <i class="ti-location-pin"></i>
-                                    Netherlands
-                                </p>
-                            </div>
-                            <div class="packages__item-price">
-                                <p class="packages__item-price-name">HISTORY<br>
-                                    <span>SPORT</span>
-                                    <button class="packages__item-price-btn amsterdam-btn-color">+ 1</button>
-                                </p>
-                                <span class="packages__item-price-money">1500 $</span>
-                            </div>
-                            <div class="packages__item-description">
-                                <p class="packages__item-description-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
-                                <a href="" class="packages__item-description-btn amsterdam-btn-color">DETAILS</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-3 packages__item">
-                        <div class="packages__item-img">
-                            <img src="./assets/img/packages-page/tuscany-img.jpg" alt="" class="packages__item-img-pic">
-                            <a href="" class="packages__item-img-icon tuscany-icon-color">
-                                <img src="./assets/img/packages-page/with-Italy.png" alt="">
-                                <a href="" class="packages__item-img-sale">SALE</a>
-                            </a>
-                        </div>
-                        <div class="packages__item-content">
-                            <div class="packages__item-destination">
-                                <h1 class="packages__item-destination-name">Tuscany</h1>
-                                <p class="packages__item-destination-place">
-                                    <i class="ti-location-pin"></i>
-                                    Italy
-                                </p>
-                            </div>
-                            <div class="packages__item-price">
-                                <p class="packages__item-price-name">SPORT<br>
-                                    <span>RELAX</span>
-                                    <button class="packages__item-price-btn tuscany-btn-color">+ 1</button>
-                                </p>
-                                <span class="packages__item-price-money">
-                                    <span class="packages__item-price-old">950</span>
-                                    730 $
-                                </span>
-                            </div>
-                            <div class="packages__item-description">
-                                <p class="packages__item-description-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
-                                <a href="" class="packages__item-description-btn tuscany-btn-color">DETAILS</a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="packages__list list-2">
                     
                 </div>
+
             </div>
         </div>
         <!-- Footer -->
@@ -756,7 +583,7 @@
             </div>
         </div>
 
-
+        <script src="./assets/db.js"></script>
         <script>
             const $ = document.querySelector.bind(document);
 
@@ -766,7 +593,33 @@
             changePrice.oninput = function(e) {
                 price.innerHTML = e.target.value;
             }
-        </script>
-        
+            
+
+            // change layout
+            const layout2 = $('#change-to-list-2');
+            const layout1 = $('#change-to-list-1');
+            const list2 = $('.list-2');
+            const list1 = $('.list-1');
+
+
+            layout2.style.opacity = 0.5;
+
+            layout2.onclick = function(){
+                list2.style.display = 'flex';
+                list1.style.display = 'none';
+                layout1.style.opacity = 0.5;
+                layout2.style.opacity = 1;
+                
+            }
+
+            layout1.onclick = function(){
+                list1.style.display = 'flex';
+                list2.style.display = 'none';
+                layout2.style.opacity = 0.5;
+                layout1.style.opacity = 1;
+            }
+
+
+        </script>        
     </body>
 </html>

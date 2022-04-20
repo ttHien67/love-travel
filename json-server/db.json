@@ -1,0 +1,66 @@
+
+{
+    "packages": [
+        {
+            "img": "/assets/img/packages/berlin.jpg",
+            "logo": "/assets/img/packages/berlin.png",
+            "title":"Berlin" ,
+            "location": "Europe",
+            "price": "700",
+            "colorIcon": "berlin-icon-color",
+            "colorBtn": "berlin-btn-color",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque."
+        },
+        {
+            "img": "/assets/img/packages/hong-kong.jpg",
+            "logo": "/assets/img/packages/hong-kong.png",
+            "title":"HongKong" ,
+            "location": "Asia",
+            "price": "500",
+            "colorIcon": "hongkong-icon-color",
+            "colorBtn": "hongkong-btn-color",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque."
+        },
+        {
+            "img": "/assets/img/packages/san-francisco.jpg",
+            "logo": "/assets/img/packages/san-francisco.png",
+            "title":"San Franciso" ,
+            "location": "United States",
+            "price": "400",
+            "colorIcon": "sanFrancisco-icon-color",
+            "colorBtn": "sanFrancisco-btn-color",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque."
+        },
+        {
+            "img": "/assets/img/packages-page/phuket-img.jpg",
+            "logo": "/assets/img/packages-page/with-Thailandia.png",
+            "title":"PhuKet" ,
+            "location": "Thailandia",
+            "price": "1200",
+            "colorIcon": "thailandia-icon-color",
+            "colorBtn": "thailandia-btn-color",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque."
+        },
+        {
+            "img": "/assets/img/packages-page/amsterdam-img.jpg",
+            "logo": "/assets/img/packages-page/with-Netherlands.png",
+            "title":"Amsterdam" ,
+            "location": "Netherlands",
+            "price": "1500",
+            "colorIcon": "amsterdam-icon-color",
+            "colorBtn": "amsterdam-btn-color",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque."
+        },
+        {
+            "img": "/assets/img/packages-page/tuscany-img.jpg",
+            "logo": "/assets/img/packages-page/with-Italy.png",
+            "title":"Tuscany" ,
+            "location": "Italy",
+            "price": "730",
+            "colorIcon": "tuscany-icon-color",
+            "colorBtn": "tuscany-btn-color",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque."
+        }
+    ]
+
+}
