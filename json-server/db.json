@@ -2,64 +2,139 @@
 {
     "packages": [
         {
+            "id": 1,
             "img": "/assets/img/packages/berlin.jpg",
             "logo": "/assets/img/packages/berlin.png",
             "title":"Berlin" ,
             "location": "Europe",
-            "price": "700",
+            "type": "CULTURAL RELAX",
+            "sale": "",
+            "newPrice": "700",
+            "oldPrice": "",
             "colorIcon": "berlin-icon-color",
             "colorBtn": "berlin-btn-color",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque."
         },
         {
+            "id": 2,
             "img": "/assets/img/packages/hong-kong.jpg",
             "logo": "/assets/img/packages/hong-kong.png",
             "title":"HongKong" ,
             "location": "Asia",
-            "price": "500",
+            "type": "HISTORY CULTURAL",
+            "sale": "SALE",
+            "newPrice": "500",
+            "oldPrice": "1000",
             "colorIcon": "hongkong-icon-color",
             "colorBtn": "hongkong-btn-color",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque."
         },
         {
+            "id": 3,
             "img": "/assets/img/packages/san-francisco.jpg",
             "logo": "/assets/img/packages/san-francisco.png",
             "title":"San Franciso" ,
             "location": "United States",
-            "price": "400",
+            "type": "SPORT RELAX",
+            "sale": "",
+            "newPrice": "400",
+            "oldPrice": "",
             "colorIcon": "sanFrancisco-icon-color",
             "colorBtn": "sanFrancisco-btn-color",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque."
         },
         {
+            "id": 4,
             "img": "/assets/img/packages-page/phuket-img.jpg",
             "logo": "/assets/img/packages-page/with-Thailandia.png",
             "title":"PhuKet" ,
             "location": "Thailandia",
-            "price": "1200",
+            "type": "RELAX CULTURAL",
+            "sale": "",
+            "newPrice": "1200",
+            "oldPrice": "",
             "colorIcon": "thailandia-icon-color",
             "colorBtn": "thailandia-btn-color",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque."
         },
         {
+            "id": 5,
             "img": "/assets/img/packages-page/amsterdam-img.jpg",
             "logo": "/assets/img/packages-page/with-Netherlands.png",
             "title":"Amsterdam" ,
             "location": "Netherlands",
-            "price": "1500",
+            "type": "HISTORY SPORT",
+            "sale": "",
+            "newPrice": "1500",
+            "oldPrice": "",
             "colorIcon": "amsterdam-icon-color",
             "colorBtn": "amsterdam-btn-color",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque."
         },
         {
+            "id": 6,
             "img": "/assets/img/packages-page/tuscany-img.jpg",
             "logo": "/assets/img/packages-page/with-Italy.png",
             "title":"Tuscany" ,
             "location": "Italy",
-            "price": "730",
+            "type": "SPORT RELAX",
+            "sale": "SALE",
+            "newPrice": "730",
+            "oldPrice": "950",
             "colorIcon": "tuscany-icon-color",
             "colorBtn": "tuscany-btn-color",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque."
+        }
+    ],
+
+    "destination": [
+        {
+            "id": 1,
+            "img": "/assets/img/destinations/des-img/Europe.jpg",
+            "logo": "/assets/img/destinations/des-icon/with-Europe.png",
+            "title": "Europe",
+            "text": "3 PACKAGES",
+            "packages": ["Berlin", "Amsterdam", "Tuscany"]
+        },
+        {
+            "id": 2,
+            "img": "/assets/img/destinations/des-img/Thailandia.jpg",
+            "logo": "/assets/img/destinations/des-icon/with-Thailandia.png",
+            "title": "Thailandia",
+            "text": "1 PACKAGES",
+            "packages": ["Phuket"]
+        },
+        {
+            "id": 3,
+            "img": "/assets/img/destinations/des-img/Asia.jpg",
+            "logo": "/assets/img/destinations/des-icon/with-Asia.png",
+            "title": "Asia",
+            "text": "2 PACKAGES",
+            "packages": ["Hongkong", "Phuket"]
+        },
+        {
+            "id": 4,
+            "img": "/assets/img/destinations/des-img/Italy.jpg",
+            "logo": "/assets/img/destinations/des-icon/with-Italy.png",
+            "title": "Italy",
+            "text": "1 PACKAGES",
+            "packages": ["Tuscany"]
+        },
+        {
+            "id": 5,
+            "img": "/assets/img/destinations/des-img/Netherlands.jpg",
+            "logo": "/assets/img/destinations/des-icon/with-Netherlands.png",
+            "title": "Netherlands",
+            "text": "1 PACKAGES",
+            "packages": ["Amsterdam"]
+        },
+        {
+            "id": 6,
+            "img": "/assets/img/destinations/des-img/US.jpg",
+            "logo": "/assets/img/destinations/des-icon/with-US.png",
+            "title": "United States",
+            "text": "1 PACKAGES",
+            "packages": ["San Francisco"]
         }
     ]
 

@@ -29,6 +29,7 @@ function renderlist1(packgaes){
             <a href="" class="packages__item-img-icon ${package.colorIcon}">
                 <img src="${package.logo}" alt="">
             </a>
+            <a href="" class="packages__item-img-sale">${package.sale}</a>
         </div>
         <div class="packages__item-content">
             <div class="packages__item-destination">
@@ -39,11 +40,13 @@ function renderlist1(packgaes){
                 </p>
             </div>
             <div class="packages__item-price">
-                <p class="packages__item-price-name">CULTURAL <br>
-                    <span>RELAX</span>
+                <p class="packages__item-price-name">${package.type}
                     <button class="packages__item-price-btn ${package.colorBtn}">+ 1</button>
                 </p>
-                <span class="packages__item-price-money">${package.price} $</span>
+                <span class="packages__item-price-money">
+                    <span class="packages__item-price-old">${package.oldPrice}</span>
+                    ${package.newPrice} $
+                </span>
             </div>
             <div class="packages__item-description">
                 <p class="packages__item-description-p">${package.description}</p>
@@ -62,10 +65,10 @@ function renderlist2(packgaes){
 
     var htmls = packgaes.map(function (package){
         return `<div class="col-lg-6 col-sm-12 packages__item packages__item-change-layout">
-        <div class="packages__item-img">
+        <div class="packages__item-img" style="width: 45%">
             <img src="${package.img}"" alt="" class="packages__item-img-pic change-pic">
         </div>
-        <div class="packages__item-content">
+        <div class="packages__item-content" style="width: 55%">
             <div class="packages__item-destination">
                 <h1 class="packages__item-destination-name">${package.title}</h1>
                 <p class="packages__item-destination-place">
@@ -74,11 +77,13 @@ function renderlist2(packgaes){
                 </p>
             </div>
             <div class="packages__item-price">
-                <p class="packages__item-price-name">CULTURAL <br>
-                    <span>RELAX</span>
-                    <button class="packages__item-price-btn  ${package.colorBtn}">+ 1</button>
+                <p class="packages__item-price-name">${package.type}
+                    <button class="packages__item-price-btn ${package.colorBtn}">+ 1</button>
                 </p>
-                <span class="packages__item-price-money">${package.price} $</span>
+                <span class="packages__item-price-money">
+                    <span class="packages__item-price-old">${package.oldPrice}</span>
+                    ${package.newPrice} $
+                </span>
             </div>
             <div class="packages__item-description">
                 <p class="packages__item-description-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
