@@ -11,6 +11,10 @@
     clear: both;
 }
 
+.space {
+    height: 20px;
+}
+
 .content-section {
     width: 1200px;
     margin-left: auto;
@@ -90,4 +94,8 @@
     to{
         opacity: 1;
     }
+}
+
+a:hover {
+    text-decoration: none;
 }

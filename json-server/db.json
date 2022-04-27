@@ -13,7 +13,8 @@
             "oldPrice": "",
             "colorIcon": "berlin-icon-color",
             "colorBtn": "berlin-btn-color",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque."
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.",
+            "link": "../details/berlin.html"
         },
         {
             "id": 2,
@@ -55,7 +56,8 @@
             "oldPrice": "",
             "colorIcon": "thailandia-icon-color",
             "colorBtn": "thailandia-btn-color",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque."
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.",
+            "link": "../details/phuket.html"
         },
         {
             "id": 5,

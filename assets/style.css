@@ -855,6 +855,7 @@ body {
 .packages__item-content {
     padding: 30px;
     border: 1px solid #f1f1f1;
+    min-height: 380px;
 
 }
 
@@ -891,7 +892,7 @@ body {
 }
 
 .packages__item-price-name {
-    width: 50%;
+    width: 60%;
     font-size: 1.4rem;
     color: #555;
     justify-content: center;
@@ -923,7 +924,7 @@ body {
 }
 
 .packages__item-price-money {
-    width: 50%;
+    width: 40%;
     font-size: 2.5rem;
     color: #555;
     text-align: right;

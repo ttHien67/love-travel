@@ -1,6 +1,6 @@
 
 
-const api = "http://localhost:3000/destination";
+const apiDestination = "http://localhost:3000/destination";
 const apiPackages = "http://localhost:3000/packages";
 
 function start(){
@@ -11,7 +11,7 @@ function start(){
 start()
 
 function getDestination(callback){
-    fetch(api)
+    fetch(apiDestination)
         .then(function (response) {
             return response.json();
         })
@@ -98,7 +98,7 @@ function renderPackages(packgaes){
             </div>
             <div class="packages__item-description">
                 <p class="packages__item-description-p">${package.description}</p>
-                <a href="" class="packages__item-description-btn ${package.colorBtn}">DETAILS</a>
+                <a href="../details.html" class="packages__item-description-btn ${package.colorBtn}">DETAILS</a>
             </div>
         </div>
     </div>
