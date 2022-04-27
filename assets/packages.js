@@ -56,7 +56,7 @@ function renderlist1(packages){
             </div>
             <div class="packages__item-description">
                 <p class="packages__item-description-p">${package.description}</p>
-                <a href="" class="packages__item-description-btn ${package.colorBtn}"
+                <a href="../details.html" class="packages__item-description-btn ${package.colorBtn}"
                 onclick="getId(${package.id})">DETAILS</a>
             </div>
         </div>
@@ -96,7 +96,7 @@ function renderlist2(packgaes){
             </div>
             <div class="packages__item-description">
                 <p class="packages__item-description-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
-                <a href="" class="packages__item-description-btn  ${package.colorBtn}">DETAILS</a>
+                <a href="../details.html" class="packages__item-description-btn  ${package.colorBtn}">DETAILS</a>
             </div>
         </div>
     </div>`
@@ -114,7 +114,7 @@ function renderDetails(packages){
     const details = document.querySelector(".container_content");
 
     var htmls = packages.map(function (package){
-        if(package.id == 1){
+        if(package.id == 4){
             return `
             <div class="slider" style="background-image: url('${package.img}');">
                 <div class="slider-content content-section">
