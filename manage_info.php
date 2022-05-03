@@ -18,6 +18,7 @@
 
 <div class="container">
   <h1 class="title text-success" style="text-align: center; margin-top:50px">Manage information of guests</h1>
+  <a href="./manage_package.php" type="button" class="btn btn-outline-success">Manage Packages</a>
 
   <table class="table table-hover" style="margin-top: 30px">
     <thead>
